@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald');
+body {background:url(../imagens/bg-body.jpg);}
+
+.divcenter{width:800px; height:auto; overflow:hidden; margin:0 auto/*centraliza com a largura especificada*/;}
+
+.boxposts li{
+	width:758;
+	height:auto;
+	padding:20px 20px;
+	background:#fff;
+	border:1px solid #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	border-bottom:10px solid #eee;
+	margin:30px 0;}
+	
+.thumb{
+	width:166px;
+	height:166px;
+	float:left;
+	border:4px solid #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right:24px;}
+	
+	/* PG POSTS*/
+	
+	#pgPost .thumb{width:100%;height:100%;margin:0 auto 20px auto; float:none;display:table;}
+	#pgPost .thumb img{width:100%; height:100%;}
+	#pgPost .content { float:none; width:100%;}
+	/*fim PG POSTS*/
+	
+	
+	
+.content { float:left; width:560px;}
+.content h1{
+	font-size:20px;
+	font-weight:bold;
+	color:#666;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform:uppercase;
+	margin-bottom:20px;}
+	
+.content p, .boxposts li{
+	font-family:tahoma, "Trebuchet Ms", arial;
+	font-size:13px;
+	color:#999;
+	line-height:20px;/*espacamento entre linhas*/
+	}
+	
+.footer_post{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding-top:8px;
+	margin-top:8px;
+	border-top:1px dotted #eee;/*borda de separação*/
+	}
+
+.footer_post a{
+	font-family:tahoma, "Trebuchet Ms", arial;
+	font-size:13px;
+	color:#666;
+	line-height:20px;/*espacamento entre linhas*/
+	font-weight:bold;
+	text-decoration:none;	
+	float:left;
+	}
+	
+.footer_post a:hover{
+	text-decoration:underline;
+	
+	}
+	
+.datapost{
+	
+	font-family:tahoma, "Trebuchet Ms", arial;
+	font-size:13px;
+	color:#999;
+	line-height:20px;/*espacamento entre linhas*/
+	float:right;
+	}
+	
+.datapost strong{
+	color:#666;
+	font-weight:bold;
+	}
+	
